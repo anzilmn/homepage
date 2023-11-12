@@ -1,0 +1,150 @@
+body{
+background-color: black;
+max-width: 100%;
+height: 100%; 
+}
+
+#white{
+
+margin-left: 20px;
+    width: 1159px;
+    height: 500px;
+    background-color: white;
+    margin-top: 38px;
+    border-radius: 70px;
+  
+}
+
+#white{
+
+    background-image: url(images\ \(1\).jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#sec{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten{
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 15px;
+height: 5px;
+
+
+
+}
+#two,#three,#four{
+
+margin-top: 20px;
+    margin-left: -40px;
+}
+
+#four:hover{
+color: red;
+    font-size: 17px;
+}
+
+#three:hover{
+  
+    font-size: 17px;
+}
+#three p:hover{
+
+    color: red;
+}
+#two p:hover{
+    color: red;
+}
+#four p:hover{
+
+    color: red;
+}
+#two:hover{
+    color: red;
+    font-size: 17px;
+}
+a{
+
+
+    text-decoration: none;
+color: black;
+}
+
+
+#welcome{
+
+    font-size: 115px;
+    font-family:'Courier New', Courier, monospace;
+margin-left: 75px;
+margin-top: -20px;
+margin-top: 60px;
+display: inline;
+}
+#big{
+
+    font-size: 128px;
+    font-family:'Courier New', Courier, monospace;
+margin-left: 75px;
+margin-top: -45px;
+
+display: block;
+
+}
+
+#welcome:hover{
+    cursor: -webkit-grab;
+    text-decoration: underline red;
+    color: red;
+}
+
+#big:hover{
+    color: red;
+cursor: -webkit-grab;
+    text-decoration: underline red;
+}
+#para{
+
+    margin-top: -110px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-left: 83px;
+}
+#para:hover{
+
+
+    color: red;
+}
+
+#button{
+
+background-color: red;
+width:150px;
+height: 70px;
+border-radius: 70px;
+text-align: center;
+margin-left: 70px;
+
+}
+
+#button #get{
+
+text-decoration: none;
+color: black;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 18px;
+display: block;
+margin-top: 25px;
+transform: translateY(21px);
+
+}
